@@ -17,8 +17,8 @@ public class LoginStepDefinitions {
 
     @When("user enter valid {string} and {string}")
     public void userEnterValidAnd(String username, String password) {
-        loginPage.username.sendKeys(username);
-        loginPage.password.sendKeys(password);
+        loginPage.username.sendKeys("User101");
+        loginPage.password.sendKeys("Userpass123");
 }
 
 
